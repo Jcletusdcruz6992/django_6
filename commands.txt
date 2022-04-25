@@ -1,0 +1,28 @@
+my$ conda create --name myDjangoEnv django
+$ conda activate myDjangoEnv
+$ conda deactivate
+django-admin startproject first_project
+python manage.py runserver
+echo "# Ethical_hacking" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Jcletusdcruz6992/mydjango.git
+git push -u origin main
+python manage.py startapp first_app
+from django.conf.urls import include
+from django.conf.urls import urls
+python manage.py migrate
+python manage.py makemigrations AppFour
+python manage.py shell
+python manage.py createsuperuser
+pip install faker
+from django.core import validators
+https://docs.djangoproject.com/en/1.11/howto/custom-template-tags/
+
+pip install bcrypt
+pip install django[argon2]
+pip install pillow
+{% block body_block %}
+{% endblock %}
